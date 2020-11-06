@@ -1,0 +1,6 @@
+16:35:49,181 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+16:35:49,898 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+16:35:50,213 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\akash\eclipse-workspace\workspace\jdo-library-management\target\library-management-0.1.0-SNAPSHOT\WEB-INF\classes\com\librarymanagement\Book.class" with enhanced definition
+16:35:50,218 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\akash\eclipse-workspace\workspace\jdo-library-management\target\library-management-0.1.0-SNAPSHOT\WEB-INF\classes\com\librarymanagement\Staff.class" with enhanced definition
+16:35:50,223 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\akash\eclipse-workspace\workspace\jdo-library-management\target\library-management-0.1.0-SNAPSHOT\WEB-INF\classes\com\librarymanagement\Student.class" with enhanced definition
+16:35:50,255 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes. Timings : input=254 ms, enhance=70 ms, total=324 ms. Consult the log for full details

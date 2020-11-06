@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+<style> 
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+}
+button { 
+       
+       width: 100%;
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px solid black; 
+        margin-left: 25%;
+        margin-right: 25%;
+    } 
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+       
+        box-sizing: border-box; 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    } 
+      
+   
+ .container { 
+        padding: 25px; 
+    } 
+</style> 
+</head>  
+<body>  
+    <h1 align="center"> Login Form </h1> 
+    <form action="login" method="POST">
+        <div class="container"> 
+            <label>Id : </label> 
+            <input type="text" placeholder="Enter Id" name="id" required>
+            <label>Password : </label> 
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <label>Select : </label>
+            <select name="user" id="user">
+			    <option value="Student">Student</option>
+			    <option value="Staff">Staff</option>
+			    <option value="Admin">Admin</option>
+			 </select>
+            <button type="submit">Login</button> 
+            New <a href="signup"> Signup </a><br>
+        </div> 
+    </form>   
+</body>   
+</html>
+
+ 
